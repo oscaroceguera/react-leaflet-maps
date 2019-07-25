@@ -2,7 +2,6 @@ import React, { useRef, useState} from 'react';
 import {Map, TileLayer, Marker, Popup} from 'react-leaflet'
 import logo from './logo.svg';
 import './App.css';
-import { isCompletionStatement } from '@babel/types';
 
 function App () {
   const [location, setLocation] = useState({
